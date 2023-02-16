@@ -17,6 +17,6 @@ int main()
 }
 void addnumbers(complex x,complex y,complex *c)
 {
-	c->real=x.real-y.real;
-	c->imaginary=x.imaginary-y.imaginary;
+	c->real=x.real+y.real;
+	c->imaginary=x.imaginary+y.imaginary;
 }
